@@ -82,7 +82,7 @@
 	}
 
 	.container {
-		width: 35em;
+		width: 45em;
 	}
 
 	@media screen and (max-width: 1680px) {
@@ -106,7 +106,7 @@
 		}
 
 		.container {
-			width: 35em;
+			width: 45em;
 		}
 
 	}
@@ -1393,9 +1393,14 @@
 			text-decoration: none;
 		}
 
-	h2 {
+	.special h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
+	}
+	
+	h2 {
+		font-size: 1.10em;
+		line-height: 1.10em;
 	}
 
 	h3 {
@@ -2242,8 +2247,12 @@
 		}
 
 			ul.alt li {
-				border-top: solid 1px #dddddd;
+				/*border-top: solid 1px #dddddd;*/
 				padding: 0.5em 0;
+			}
+			
+			ul.alt li:nth-child(2n+1) {
+				background-color: rgba(144, 144, 144, 0.075);
 			}
 
 				ul.alt li:first-child {
@@ -3030,4 +3039,9 @@
 					padding: 0;
 				}
 
+	}
+	
+	
+	li {
+		font-size: 0.8em;
 	}
